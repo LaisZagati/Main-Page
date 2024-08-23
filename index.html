@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Selection Page</title>
+    <style>
+        /* Apply a clean font */
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #2c3e50, #4b79a1);
+            color: #ecf0f1;
+        }
+
+        /* Center the content and create a card-like container */
+        .container {
+            text-align: center;
+            background: rgba(44, 62, 80, 0.8);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+            width: 400px;
+            transition: all 0.3s ease;
+        }
+
+        /* Add hover effect to the container */
+        .container:hover {
+            background: rgba(44, 62, 80, 0.9);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Style the buttons with a modern look */
+        .button-link {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 40px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #ecf0f1;
+            background: #e74c3c;
+            border-radius: 50px;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Add hover effect to the buttons */
+        .button-link:hover {
+            background: #c0392b;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .button-link {
+                font-size: 16px;
+                padding: 12px 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Calculator</h1>
+        <a href="https://laiszagati.github.io/MAWB-Calculator/" class="button-link">MAWB Calculator</a>
+        <a href="https://laiszagati.github.io/StorageChargesCalculator/" class="button-link">Storage Charges Calculator</a>
+    </div>
+</body>
+</html>
